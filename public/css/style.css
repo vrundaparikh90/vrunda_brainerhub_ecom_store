@@ -1,0 +1,54 @@
+.error {
+  color: red; 
+}
+.customClass {
+  text-shadow:none !important;
+  font-size: 17px;	
+  padding: 12px;
+}
+.customerror {
+	margin: -16px 0px 5px 0px !important;
+}
+.delete_task {
+	cursor: pointer;
+}
+.edit_task {
+  cursor: pointer;
+}
+.del_task {
+	float: none !important;
+}
+.action {
+  float: right;
+  margin-right: 25px;
+}
+
+/* green */
+.icheckbox_flat-green_new{
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_flat-green_new {
+    background-position: 0 0;
+}
+.icheckbox_flat-green_new.checked {
+    background-position: -22px 0;
+}
+.icheckbox_flat-green_new.disabled {
+    background-position: -44px 0;
+    cursor: default;
+}
+.icheckbox_flat-green_new.checked.disabled {
+    background-position: -66px 0;
+}
+
+.bootstrap-datetimepicker-widget{cursor:pointer;}
